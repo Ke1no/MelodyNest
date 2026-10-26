@@ -33,4 +33,4 @@ The Android Emulator uses `http://10.0.2.2:3001/`. For a USB-connected physical 
 ## Status and next steps
 Android debug build and JVM unit tests passed in GitHub Actions. Download the debug APK from the `minispotify-debug-apk` artifact in the [verified workflow run](https://github.com/Ke1no/mini-spotify/actions/runs/40387046092). Emulator/device behavior has not been verified.
 
-See [中文开发清单](docs/NEXT_STEPS.zh-CN.md), [architecture](docs/ARCHITECTURE.md), and [validation](docs/VALIDATION.md). This scaffold has no Spotify integration, signing key, Play Store release or cloud deployment.
+See [development roadmap](docs/NEXT_STEPS.md), [architecture](docs/ARCHITECTURE.md), and [validation](docs/VALIDATION.md). This scaffold has no Spotify integration, signing key, Play Store release or cloud deployment.
