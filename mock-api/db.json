@@ -1,0 +1,40 @@
+{
+  "tracks": [
+    {
+      "id": "demo-1",
+      "albumId": "focus",
+      "title": "Morning Notes",
+      "artist": "Generated demo audio",
+      "durationSeconds": 4,
+      "audioUrl": null
+    },
+    {
+      "id": "demo-2",
+      "albumId": "focus",
+      "title": "Quiet Study",
+      "artist": "Generated demo audio",
+      "durationSeconds": 4,
+      "audioUrl": null
+    },
+    {
+      "id": "demo-3",
+      "albumId": "break",
+      "title": "A Small Break",
+      "artist": "Generated demo audio",
+      "durationSeconds": 4,
+      "audioUrl": null
+    }
+  ],
+  "albums": [
+    {
+      "id": "focus",
+      "title": "Focus Session",
+      "artist": "Demo collection"
+    },
+    {
+      "id": "break",
+      "title": "Take a Break",
+      "artist": "Demo collection"
+    }
+  ]
+}

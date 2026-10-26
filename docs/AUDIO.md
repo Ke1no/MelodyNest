@@ -1,0 +1,1 @@
+The bundled demo_tone.wav is an original 4-second synthesized melody. Run python3 scripts/generate_demo_audio.py to regenerate it. All three fixture tracks use this same tone; no real song is implied.
