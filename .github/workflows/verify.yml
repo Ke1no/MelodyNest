@@ -1,4 +1,4 @@
-name: Verify MiniSpotify
+name: Verify MelodyNest
 on: [push, pull_request]
 permissions:
   contents: read

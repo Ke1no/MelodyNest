@@ -24,7 +24,7 @@ import com.keino.minispotify.data.Track
     val entry by nav.currentBackStackEntryAsState()
     val route = entry?.destination?.route
     MaterialTheme(colorScheme = darkColorScheme(primary = Color(0xFF79D39C), background = Color(0xFF101914), surface = Color(0xFF18231D))) {
-        Scaffold(topBar = { TopAppBar(title = { Text("MiniSpotify") }) }, bottomBar = {
+        Scaffold(topBar = { TopAppBar(title = { Text("MelodyNest") }) }, bottomBar = {
             Column {
                 Surface(tonalElevation = 4.dp) { Row(Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.SpaceBetween) {
                     Column(Modifier.weight(1f)) { Text(playback.title); playback.error?.let { Text(it, color = MaterialTheme.colorScheme.error) } }
