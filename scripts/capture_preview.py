@@ -13,7 +13,7 @@ adb('shell', 'am', 'start', '-W', '-n', 'com.keino.minispotify/.MainActivity')
 for _ in range(20):
     adb('shell', 'uiautomator', 'dump', '/sdcard/window.xml')
     xml = adb('shell', 'cat', '/sdcard/window.xml').decode()
-    if 'Made for your break' in xml and 'Favorites' in xml:
+    if 'MelodyNest' in xml and 'Made for your break' in xml and 'Favorites' in xml:
         break
     time.sleep(1)
 else:
